@@ -13,11 +13,11 @@ services:
         databases:
           default:
             connector: postgres
-            host: doogoga.c1hi1gmctrap.ap-northeast-2.rds.amazonaws.com
-            database: dooGoga
+            host: host
+            database: database
             schema: public
-            user: dooGoga
-            password: '12345678'
+            user: user
+            password: 'password'
             ssl: false
             rawAccess: true
             port: '5432'
